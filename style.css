@@ -1,5 +1,8 @@
 body {
-  background-color: grey;
+  background-image: url(background.jpg);
+  background-size: cover;
+  font-size: 20px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
 ul {
@@ -9,6 +12,7 @@ ul {
 
 li {
   float: left;
+  border-color: #4b8ffc;
   border-style: solid;
   border-radius: 5px;
   background-color: lightgrey;
@@ -24,8 +28,23 @@ li a {
   color: black;
 }
 
-#menubar {
+table {
+  border-width: 10px;
+  border-color: black;
+}
 
+label{
+  float:left;
+}
+input{
+  float:right;
+}
+
+#menubar {
+  border-left-color: #4b8ffc;
+  border-right-color: #4b8ffc;
+  border-top-color: #4b8ffc;
+  border-bottom-color: lightgrey;
   border-style: solid;
   background: lightgrey;
   margin-left: 0px;
@@ -39,17 +58,19 @@ li a {
   margin: 100px;
   margin-top: 50px;
   border-style: solid;
-  border-color: black;
+  border-color: #4b8ffc;
   border-radius: 10px;
   padding: 1%;
   background-color: lightgrey;
 }
 
 #bottom {
-  border-style: solid;
-  border-color: black;
-  background-color: lightgrey;
-  border-radius: 5px;
-  margin: 0px;
-  padding: 10px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #4b8ffc;
+  color: white;
+  text-align: center;
+  opacity: 0.8;
 }
