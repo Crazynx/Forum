@@ -19,7 +19,7 @@ include 'header.php';
   </tr>
   <table border='0' cellpadding='0' cellspacing='0' width='480px' align='center'>
     <tr>
-      <td align='center'><input type='submit' name='submit' value="Registreren"></td>
+      <td align='center'><input type='submit' name='submit' value="Inloggen"></td>
     </tr>
   </table>
 </table>
