@@ -14,5 +14,6 @@
         <li><a href="login.php">Log in</a></li>
         <li><a href="register.php">Registreer</a></li>
       </ul>
+      <input type="text" name="searchbar" align="right">
     </div>
     <div id="wrapper">
