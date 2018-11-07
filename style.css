@@ -54,6 +54,11 @@ input{
   padding: 10px;
 }
 
+.title {
+  font-style: oblique;
+
+}
+
 #wrapper {
   margin: 100px;
   margin-top: 50px;
